@@ -1,0 +1,6 @@
+record(ai, "$(PORT):TEST_READ")
+{
+    field(DTYP, "finsUDP")
+    field(INP,  "@$(PORT) D00000 UINT16")
+    field(SCAN, "1 second")
+}
